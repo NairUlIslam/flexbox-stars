@@ -1,0 +1,44 @@
+
+.body {
+    margin: 0px;
+    font-family: 'Hi Melody';
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #6E804A;
+    color : #451330;
+    font-size: 50px;
+    text-align: center;
+}
+
+img{
+    margin: 10px;
+    height: 350px;
+    width: 250px;
+    border: dashed 1px darkslategrey;
+    padding: 1.5px;
+}
+img:hover{
+    border: solid 2px lightskyblue;
+    padding: 3px;
+}
+
+#foot{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    background-color: lightgray;
+    color: red;
+    margin: 0px;
+}
+
